@@ -40,7 +40,7 @@ pip install pandas numpy requests beautifulsoup4
 ├── Countries_by_GDP.csv         # 📄 Output CSV file
 ├── World_Economies.db           # 🗃️ SQLite database storing the GDP table
 ├── etl_project_log.txt          # 🧾 Log file capturing ETL steps
-├── main_script.py               # 🧠 Main ETL script
+├── etl_project_gdp.py               # 🧠 Main ETL script
 └── README.md                    # 📘 Project documentation
 ```
 
@@ -95,10 +95,3 @@ After execution:
 - This script uses a static archived URL to ensure consistent scraping.
 - For live updates, replace the archive URL with the current Wikipedia link.
 - Ideal for automation and scheduled execution as new IMF data becomes available.
-
----
-
-## 👥 Author
-
-Developed by the **IMF Data Engineering Team**  
-© 2025 International Monetary Fund
